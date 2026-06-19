@@ -14,12 +14,12 @@ document.addEventListener('DOMContentLoaded', () => {
             role: 'Logo Designer'
         },
         {
-            id: 'aeon',
-            img: './assets/portfolio/02_aeon.jpg',
-            title: 'ÆON — Luxury Chronology Brand',
+            id: 'Luxury Hotel logo',
+            img: './2.png',
+            title: 'Luxury Hotel logo',
             category: 'Brand Identity',
-            description: 'ÆON is a luxury, avant-garde horology brand based in Switzerland. The identity centers around a high-precision, mathematically formulated geometric wordmark and a custom monogram embossed into carbon-black packaging stocks. The color scheme relies entirely on structural shades of black, matte charcoal, and pure platinum debossing.',
-            client: 'ÆON Watches S.A.',
+            description: 'Modern Logo Design for a Luxury Hotel Brand.',
+            client: 'Personal Project.',
             year: '2025',
             role: 'Brand Identity & Spatial Styling'
         },
