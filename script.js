@@ -14,9 +14,9 @@ document.addEventListener('DOMContentLoaded', () => {
             role: 'Logo Designer'
         },
         {
-            id: 'Luxury Hotel logo',
+            id: 'Hotel logo',
             img: './2.png',
-            title: 'Luxury Hotel logo',
+            title: 'Hotel logo',
             category: 'Logo Design',
             description: 'Modern Logo Design for a Luxury Hotel Brand.',
             client: 'Personal Project.',
