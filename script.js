@@ -34,12 +34,12 @@ document.addEventListener('DOMContentLoaded', () => {
             role: 'Logo Designer'
         },
         {
-            id: 'apex',
-            img: './assets/portfolio/04_apex.jpg',
-            title: 'APEX — Swiss Exhibition Poster',
-            category: 'Poster & Visual Art',
-            description: 'APEX is a commissioned graphic poster design celebrating international modern architecture. It utilizes an intricate structural 3D architectural wireframe grid, paired with bold Swiss-inspired grotesque typography layouts. The composition explores tight visual margins, extreme typographical hierarchies, and profound high-contrast vector lines.',
-            client: 'Bauhaus Modernist Museum',
+            id: 'Mustang Poster',
+            img: './mustang.webp',
+            title: 'Mustang Poster',
+            category: 'Poster Design',
+            description: 'A bold poster inspired by the iconic Ford Mustang.',
+            client: 'Personal Project',
             year: '2025',
             role: 'Graphic Designer'
         },
