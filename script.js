@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
             category: 'Logo Design',
             description: 'Custom podcast logo designed for a modern digital brand.',
             client: 'Personal Project',
-            year: '2025',
+            year: '2026',
             role: 'Logo Designer'
         },
         {
@@ -54,14 +54,14 @@ document.addEventListener('DOMContentLoaded', () => {
             role: 'Graphic Designer'
         },
         {
-            id: 'omni',
-            img: './assets/portfolio/06_omni.jpg',
-            title: 'OMNI — Corporate Systems',
-            category: 'Identity & Stationery',
-            description: 'OMNI is a comprehensive brand refresh and stationary package for a multi-disciplinary architecture and development studio. The system consists of business cards on heavy-stock 600gsm concrete-gray cotton paper, clean correspondence letterheads, customized matte journals, and premium folders utilizing exquisite blind debossed typographic alignments.',
-            client: 'OMNI Partners Ltd',
-            year: '2026',
-            role: 'Lead Branding Specialist'
+            id: 'SFT Tuition Poster',
+            img: './sft.webp',
+            title: 'SFT Tuition Poster',
+            category: 'Poster Design',
+            description: 'A modern poster designed to promote SFT tuition with a clean and professional layout.',
+            client: 'Personal Project',
+            year: '2025',
+            role: 'Graphic Designer'
         }
     ];
 
