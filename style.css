@@ -354,7 +354,7 @@ header.scrolled .logo{
 
 .btn-secondary:hover {
     border-color: #111;
-    color: #111;
+    color:  #e63946;
     transform: translateY(-3px);
 }
 
