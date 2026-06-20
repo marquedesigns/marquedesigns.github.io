@@ -332,28 +332,30 @@ header.scrolled .logo{
     transition:.35s ease;
 }
 
-.btn-primary{
+.btn-primary {
     color: var(--text-color);
-    background-color: var(--bg-color);
-    border:1px solid #111;
+    background-color: #111;   /* 🔥 make it strong */
+    border: 1px solid #111;
+    transition: all 0.3s ease;
 }
 
-.btn-primary:hover{
-    background:#111;
-    color:#fff;
+.btn-primary:hover {
+    background: transparent;
+    color: #111;
+    transform: translateY(-3px);
 }
 
-.btn-secondary{
-    background-color: var(--bg-color);
+.btn-secondary {
+    background-color: transparent;
     color: var(--text-color);
-    border:1px solid #ddd;
+    border: 1px solid #ddd;
+    transition: all 0.3s ease;
 }
 
-.btn-secondary:hover{
-    background-color: var(--bg-color);
-    color: var(--text-color);
-    border-color:#111;
-    transform:translateY(-3px);
+.btn-secondary:hover {
+    border-color: #111;
+    color: #111;
+    transform: translateY(-3px);
 }
 
 /* ==========================================
