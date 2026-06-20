@@ -329,20 +329,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function toggleDarkMode() {
     document.body.classList.toggle("dark-mode");
-
-    // Save theme
-    if (document.body.classList.contains("dark-mode")) {
-        localStorage.setItem("theme", "dark");
-    } else {
-        localStorage.setItem("theme", "light");
-    }
 }
-
-// Apply saved theme on page load
-document.addEventListener("DOMContentLoaded", () => {
-    if (localStorage.getItem("theme") === "dark") {
-        document.body.classList.add("dark-mode");
-    } else {
-        document.body.classList.remove("dark-mode");
-    }
-});
