@@ -318,46 +318,29 @@ header.scrolled .logo{
    BUTTONS
 ========================================== */
 
-.btn{
-    display:inline-flex;
-    align-items:center;
-    justify-content:center;
-    padding:15px 34px;
-    border-radius:999px;
-    text-decoration:none;
-    font-size:.95rem;
-    font-weight:600;
-    letter-spacing:0;
-    text-transform:none;
-    transition:.35s ease;
-}
-
-.btn-primary {
+.btn-primary{
     color: var(--text-color);
-    background-color:  #e63946;
-    border: 1px solid  #e63946;
-    transition: all 0.3s ease;
+    background-color: var(--bg-color);
+    border:1px solid #111;
 }
 
-.btn-primary:hover {
-    background: transparent;
-    color:  #e63946;
-    transform: translateY(-3px);
+.btn-primary:hover{
+    background:#111;
+    color:#fff;
 }
 
-.btn-secondary {
-    background-color: transparent;
+.btn-secondary{
+    background-color: var(--bg-color);
     color: var(--text-color);
-    border: 1px solid #ddd;
-    transition: all 0.3s ease;
+    border:1px solid #ddd;
 }
 
-.btn-secondary:hover {
-    border-color: #111;
-    color:  #e63946;
-    transform: translateY(-3px);
+.btn-secondary:hover{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    border-color:#111;
+    transform:translateY(-3px);
 }
-
 /* ==========================================
    HERO SECTION (EDITORIAL IMPACT)
    ========================================== */
