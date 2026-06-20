@@ -329,15 +329,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function toggleDarkMode() {
     document.body.classList.toggle("dark-mode");
-
-    const lightLogo = document.querySelector(".logo-light");
-    const darkLogo = document.querySelector(".logo-dark");
-
-    if (document.body.classList.contains("dark-mode")) {
-        lightLogo.style.display = "none";
-        darkLogo.style.display = "block";
-    } else {
-        lightLogo.style.display = "block";
-        darkLogo.style.display = "none";
-    }
 }
