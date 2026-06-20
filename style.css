@@ -138,7 +138,7 @@ header {
     left: 0;
     width: 100%;
     height: var(--header-height);
-    background-color: rgba(255,255,255,0.75);
+    background-color: var(--bg-color);;
     backdrop-filter: blur(14px);
     -webkit-backdrop-filter: blur(14px);
     z-index: 1000;
@@ -308,8 +308,7 @@ nav a.active::after {
 
 .btn-primary:hover{
     background:#333;
-    translateY(-2px)
-    scale(1.02);
+    transform: translateY(-2px) scale(1.02);
 }
 
 .btn-secondary{
@@ -1236,4 +1235,65 @@ footer .container {
 
 header.scrolled .logo img {
     height: 30px;
+}
+
+/* =========================
+   DARK MODE SYSTEM
+========================= */
+
+/* default light mode (ඔයා already light style use කරනවා) */
+body {
+    background: #ffffff;
+}
+
+/* DARK MODE CLASS */
+body.dark-mode {
+    --bg-color: #111111;
+    --text-color: #ffffff;
+    --text-secondary: #aaaaaa;
+    --border-color: #2a2a2a;
+    --card-bg: #1a1a1a;
+}
+
+/* header dark mode fix */
+body.dark-mode header {
+    background-color: rgba(17, 17, 17, 0.85);
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+/* logo switch system */
+.logo img {
+    transition: 0.3s ease;
+}
+
+/* default → show light logo */
+.logo-dark {
+    display: none;
+}
+
+/* dark mode → switch logos */
+body.dark-mode .logo-light {
+    display: none;
+}
+
+body.dark-mode .logo-dark {
+    display: block;
+}
+
+body.dark-mode {
+    --bg-color: #111;
+    --text-color: #fff;
+    --text-secondary: #aaa;
+    --border-color: #2a2a2a;
+    --card-bg: #1a1a1a;
+}
+
+body.dark-mode {
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+
+/* Utility Classes */
+.overflow-hidden {
+    overflow: hidden;
 }
