@@ -318,6 +318,20 @@ header.scrolled .logo{
    BUTTONS
 ========================================== */
 
+.btn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    padding:15px 34px;
+    border-radius:999px;
+    text-decoration:none;
+    font-size:.95rem;
+    font-weight:600;
+    letter-spacing:0;
+    text-transform:none;
+    transition:.35s ease;
+}
+
 .btn-primary{
     color: var(--text-color);
     background-color: var(--bg-color);
