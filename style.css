@@ -1334,4 +1334,16 @@ body.dark-mode .hero-title{
     width:100%;
     padding:0 30px;
 }
+.logo img{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    height: 34px;
+}
 
+.logo{
+    position: relative;
+    width: 170px;
+    height: 34px;
+}
