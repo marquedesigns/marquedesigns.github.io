@@ -1360,3 +1360,33 @@ body.dark-mode .hero-title{
     justify-content: center;
 }
 
+#about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 20px;
+    text-align: center;
+}
+
+#about .container,
+#about > div {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.about-highlight {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-bio {
+    max-width: 750px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.stats-grid {
+    justify-content: center;
+}
+
