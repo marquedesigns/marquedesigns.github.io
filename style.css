@@ -1389,4 +1389,55 @@ body.dark-mode .hero-title{
 .stats-grid {
     justify-content: center;
 }
+#about {
+    padding: 120px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+#about .container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* spacing control */
+.about-title {
+    margin-bottom: 18px;
+}
+
+.about-highlight {
+    max-width: 750px;
+    margin: 0 auto 40px;
+}
+
+/* bio section */
+.about-bio {
+    max-width: 750px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* paragraphs spacing */
+.about-bio p {
+    margin-bottom: 20px;
+}
+
+/* stats fix */
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(120px, 1fr));
+    gap: 40px;
+    margin-top: 50px;
+    justify-items: center;
+}
+
+.stat-item {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid var(--border-color);
+    width: 100%;
+    max-width: 200px;
+}
