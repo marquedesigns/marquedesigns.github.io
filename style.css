@@ -348,7 +348,7 @@ header.scrolled .logo{
 .btn-secondary{
     background-color: transparent;
     color: var(--text-color);
-    border: 1px solid #ddd;
+    border: 1px solid #ff9ea8;
     transition: all 0.3s ease;
 }
 
