@@ -359,53 +359,141 @@ header.scrolled .logo{
 }
 
 /* ==========================================
-   HERO SECTION (EDITORIAL IMPACT)
-   ========================================== */
-.hero-section {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 72px;
-    position: relative;
-    overflow: hidden;
+   HERO SECTION
+========================================== */
 
-    }
+.hero-section{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    overflow:hidden;
+    padding-top:90px;
+}
+
+.hero-wrapper{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:90px;
+}
 
 .hero-content{
-    max-width:850px;
-    margin:auto;
-    text-align:center;
+    flex:1;
+    max-width:580px;
 }
 
 .hero-tagline{
     font-size:12px;
+    text-transform:uppercase;
     letter-spacing:.35em;
     color:#777;
     margin-bottom:20px;
 }
 
 .hero-title{
-    font-size:clamp(4rem,9vw,7rem);
+    font-size:clamp(4rem,8vw,7rem);
+    line-height:.9;
     font-weight:800;
-    line-height:.95;
     letter-spacing:-.06em;
+    margin-bottom:20px;
     color:var(--text-color);
-    margin-bottom:18px;
 }
 
 .hero-subtitle{
     font-size:1.3rem;
-    color:#666;
+    color:#555;
     margin-bottom:22px;
 }
 
 .hero-description{
-    max-width:620px;
-    margin:0 auto;
     font-size:1.05rem;
-    line-height:1.8;
     color:#777;
+    line-height:1.8;
+    margin-bottom:35px;
+}
+
+/* ========================= */
+
+.hero-showcase{
+    flex:1;
+    position:relative;
+    height:620px;
+}
+
+.design-card{
+    position:absolute;
+    width:250px;
+    background:#fff;
+    border-radius:18px;
+    overflow:hidden;
+    box-shadow:0 20px 60px rgba(0,0,0,.10);
+    transition:.35s;
+}
+
+.design-card img{
+    width:100%;
+    display:block;
+}
+
+.design-card span{
+    display:block;
+    padding:18px;
+    text-align:center;
+    font-weight:600;
+}
+
+.card1{
+    top:0;
+    right:40px;
+}
+
+.card2{
+    top:180px;
+    left:0;
+}
+
+.card3{
+    bottom:0;
+    right:0;
+}
+
+.design-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 30px 80px rgba(0,0,0,.15);
+}
+
+/* ========================= */
+
+@media(max-width:992px){
+
+.hero-wrapper{
+    flex-direction:column;
+    gap:60px;
+}
+
+.hero-content{
+    text-align:center;
+}
+
+.hero-description{
+    margin:auto;
+    margin-bottom:35px;
+}
+
+.hero-showcase{
+    position:static;
+    height:auto;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.design-card{
+    position:static;
+    width:220px;
+}
+
 }
 
 /* ==========================================
