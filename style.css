@@ -276,9 +276,12 @@ nav a.active::after {
     position: relative;
     width:150px;
     height:34px;
-    display:block;
+    display:flex;
+    align-items:center;
+    gap:10px;
 }
 
+/* Logo images */
 .logo img{
     position:absolute;
     inset:0;
@@ -310,6 +313,7 @@ body.dark-mode .logo-dark{
     visibility:visible;
 }
 
+/* Scroll effect */
 header.scrolled .logo{
     height:30px;
 }
