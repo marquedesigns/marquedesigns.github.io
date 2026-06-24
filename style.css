@@ -278,12 +278,11 @@ nav a.active::after {
     gap: 10px;
 }
 
-/* REMOVE absolute (IMPORTANT FIX) */
+/* Logo images */
 .logo img{
     width: 28px;
     height: 28px;
     object-fit: contain;
-    position: static;
 }
 
 /* Light logo default */
