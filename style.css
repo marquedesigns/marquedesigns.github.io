@@ -275,27 +275,44 @@ nav a.active::after {
 .logo{
     display: flex;
     align-items: center;
-    gap: 8px;
-    width: auto;   /* IMPORTANT FIX */
+    gap: 10px;
 }
 
-/* logo image */
+/* Logo images */
 .logo img{
     width: 28px;
     height: 28px;
     object-fit: contain;
-    display: block;
 }
 
-/* text */
-.logo span{
-    font-size: 0.85rem;
-    font-weight: 700;
-    letter-spacing: 0.18em; /* reduce spacing (IMPORTANT) */
-    text-transform: uppercase;
-    color: var(--text-color);
-    white-space: nowrap;
+/* Light logo default */
+.logo-light{
+    opacity:1;
+    visibility:visible;
 }
+
+/* Dark logo hidden */
+.logo-dark{
+    opacity:0;
+    visibility:hidden;
+}
+
+/* Dark Mode */
+body.dark-mode .logo-light{
+    opacity:0;
+    visibility:hidden;
+}
+
+body.dark-mode .logo-dark{
+    opacity:1;
+    visibility:visible;
+}
+
+/* Scroll effect */
+header.scrolled .logo{
+    height:30px;
+}
+
 /* ==========================================
    BUTTONS
 ========================================== */
