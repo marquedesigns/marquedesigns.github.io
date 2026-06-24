@@ -278,36 +278,32 @@ nav a.active::after {
     gap:10px;
 }
 
-/* logo images */
-.logo img{
+/* hide both by default control system */
+.logo-light,
+.logo-dark{
     width:28px;
     height:28px;
     object-fit:contain;
+    display:none;
+}
+
+/* LIGHT MODE (default) */
+body:not(.dark-mode) .logo-light{
     display:block;
 }
 
-/* text */
+/* DARK MODE */
+body.dark-mode .logo-dark{
+    display:block;
+}
+
 .logo span{
     font-size:0.85rem;
     font-weight:700;
     letter-spacing:0.18em;
     text-transform:uppercase;
-    color:var(--text-color);
     white-space:nowrap;
-}
-
-/* default light mode */
-.logo-dark{
-    display:none;
-}
-
-/* dark mode switch */
-body.dark-mode .logo-light{
-    display:none;
-}
-
-body.dark-mode .logo-dark{
-    display:block;
+    color:var(--text-color);
 }
 
 /* ==========================================
