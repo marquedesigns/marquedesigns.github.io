@@ -1548,3 +1548,7 @@ body.dark-mode .hero-title{
     padding:0 30px;
 }
 
+body.dark-mode .hero {
+    background: #000 !important;
+}
+
